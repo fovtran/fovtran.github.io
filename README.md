@@ -41,8 +41,6 @@
 
 [Dev.to Manueduc](https://dev.to/manueduc)
 
-[Launchpad Profile](https://launchpad.net/)
-
 [Curriculum vitae](https://)
 
 ### Donaciones
@@ -56,7 +54,9 @@
 
 ### Software preferido
 [Compiler Explorer](https://godbolt.org/)
+[Slackware Linux](http://www.slackware.com/)
 [Debian Linux](https://www.debian.org/)
+[Ubuntu Linux](https://ubuntu.com/)
 [Blender](https://www.blender.org)
 [Freecad](https://www.freecad.org/)
 [Kicad](https://www.kicad.org/)
