@@ -4,12 +4,25 @@
 
 ### Acerca de mi
 - Soy ingeniero Electronico sin titulo
-- Realizo al hobismo electronico semiprofesional y Modding 
+- Realizo al hobismo electronico semiprofesional y Modding
 - Poseo varias especializaciones y cursos
 - Vivo en Cordoba capital, Argentina.
 - Experiencia de varias indoles en telecomunicaciones, redes de datos, estudios digitales y mas.
 - Actualmente buscando nuevos clientes y trabajo remoto (Mantenimiento y Webs)
 - Abierto a ofertas Collab en emprendimientos y Multimedia.
+
+### Currently
+
+- Electronics: Coverage of audio systems floor-noise for reaching -40dB, -60dB and -90dB if possible.
+- Electronics: Low noise plugged and lithium power sources.
+- Electronics: IR Remote controls and other embedded design in atmel, 8051, and other compatibles
+
+- Coding high performance video and 3d renderers,
+- Coding systemctl/kernel parameters administration apps
+- Console high performance performance metrics related to kernel parameters (spectre bug related)
+- Kicad/Freecad plugins.
+- Realtime kernel audio optimizations and constant patching
+- A distro?
 
 ### Deseos
 - Comprarme anteojos (veo muy poco)
@@ -39,12 +52,14 @@
 
 [Github](https://www.github.com/fovtran/fovtran)
 
-[Dev.to Manueduc](https://dev.to/manueduc)
+[Dev.to](https://dev.to/manueduc)
+
+[Medium](https://medium.com/@diegocad)
+
+[DisenoLab](https://sites.google.com/view/disenolab)
 
 [Curriculum vitae](https://)
 
-### Donaciones
-[Invitame muchos Cafecitos seguidos](https://cafecito.app/manueduc)
 
 ### Links para Twitch
 [Overlays](https://overlay.expert/builder/)
@@ -70,6 +85,8 @@
 [Android Studio](https://developer.android.com/studio?)
 [Arduino IDE](https://www.arduino.cc/en/software)
 [Codium](https://vscodium.com/)
+[JSFiddle](https://jsfiddle.net/)
+[JSBin](http://jsbin.com/uderuw/17/edit?html,output)
 [GeminiAI](https://gemini.google.com/)
 [Ultimate Tweaker](https://www.thewindowsclub.com/ultimate-windows-tweaker-4-windows-10)
 [CCleaner](https://www.ccleaner.com/)
@@ -84,5 +101,14 @@
 [OpenGL](https://www.opengl.org/)
 [QT Creator](https://doc.qt.io/qt-5/)
 
-### Foros
-- Proximamente
+
+### Donaciones/Donations
+
+- We often receive donations in hardware we repair/refurbish and sail, but as well
+  You can drop in some money for lab improvements and wealth.
+  Our current systems are very out of date from 2007, so any help is appreciate.
+  You're very welcome!
+
+[Invitame Cafecitos](https://cafecito.app/manueduc)
+
+[Paypal](https://www.paypal.com/paypalme/disenonline)
