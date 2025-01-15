@@ -120,10 +120,8 @@
 
 ### Donaciones/Donations
 
-- We often receive donations in hardware we repair/refurbish and sail, but as well
-  You can drop in some money for lab improvements and wealth.
-  Our current systems are very out of date from 2007, so any help is appreciate.
-  You're very welcome!
+- Empower our activity today by making a Donation!
+  You're Welcome!
 
 [Invitame Cafecitos](https://cafecito.app/manueduc)
 
