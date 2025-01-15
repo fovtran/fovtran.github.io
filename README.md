@@ -1,9 +1,8 @@
-# fovtran.github.io
-
-* Esta pagina web esta siendo mejorada,
+* [Fovta.github.io](https://fovtran.github.io) esta siendo mejorado.
 
 
-### Acerca de mi
+## Acerca de mi
+
 - Soy ingeniero Electronico sin titulo
 - Realizo al hobismo electronico semiprofesional y Modding
 - Poseo varias especializaciones y cursos
@@ -13,46 +12,44 @@
 - Abierto a ofertas Collab en emprendimientos y Multimedia.
 
 
-### Currently
+### On the Bench
 
 - Electronics: Coverage of audio systems floor-noise for reaching -40dB, -60dB and -90dB if possible.
 - Electronics: Low noise plugged and lithium power sources.
 - Electronics: IR Remote controls and other embedded design in atmel, 8051, and other compatibles
 
-- Coding high performance video and 3d renderers,
+- Coding high performance video and 3d renderers (VAAPI/OpenCL/NVidia)
 - Coding systemctl/kernel parameters administration apps
-- Console high performance performance metrics related to kernel parameters (spectre bug related)
+- Console tooling. metrics related to kernel and user api.
 - Kicad/Freecad plugins.
-- Realtime kernel audio optimizations and constant patching
+- Linus Kernel Realtime Audio. (Optimizations and constant patching)
 - A distro?
 
 
-### Actividades
+### Servicios que ofrecemos
+
 * Soporte profesional Windows 8.1/10/11 y otros.
 * Transcripcion y bases de datos #Bigdata
 * Desarrollo comercial de Apps.
-* Linux Kernel Developer, OSS mantenedor.
+* Open Source Software and .NET
 * Hardware de PC, arreglos/reparaciones/mods
 * Modelado parametrico CAD
 * Edicion Digital
 * Banners y arte digital
 * Desarrollo de Deeplearning, Machine learning y AI.
-* Embedded
-* Electronica
+* Embedded design.
 * Mantenimiento Web profesional
-* Audio profesional de estudio (cableados, arreglos, Cine)
+* Audio profesional de estudio (cableados, arreglos)
+* Plataformas para Renderizado de Cine en PC. (Youtube, publicidad, etc)
 
 
-### Deseos
+#### Deseos para 2025
+
 - Comprarme anteojos (veo muy poco)
-- Mejorar el laboratorio de electronica
 - Acondicionar fisicamente el espacio de trabajo
-- Cambiar la PC por uno mas moderno
-- Continuar el estudio de la Astronomia y Geofisica
-- Exportar software(2)
 
 
-### Algunos links
+#### Algunos links
 
 [Portal de prueba y Blog](https://manuapp.vercel.app/)
 
@@ -67,7 +64,7 @@
 [Curriculum vitae](https://)
 
 
-### Links para Twitch
+#### Links para Twitch
 
 [Overlays](https://overlay.expert/builder/)
 [RealVoice](https://realvoicebot.wtf/dashboard)
@@ -75,7 +72,7 @@
 [Profile](https://www.twitch.tv/komwino)
 
 
-### Software preferido
+#### Software preferido
 
 [Compiler Explorer](https://godbolt.org/)
 [Slackware Linux](http://www.slackware.com/)
@@ -106,7 +103,7 @@
 [JSBin](http://jsbin.com/uderuw/17/edit?html,output)
 [GeminiAI](https://gemini.google.com/)
 
-### Lenguajes de Programacion
+#### Lenguajes de Programacion
 
 [Golang](https://go.dev/)
 [Rust](https://www.rust-lang.org/)
@@ -118,7 +115,12 @@
 [QT Creator](https://doc.qt.io/qt-5/)
 
 
-### Donaciones/Donations
+#### Mas enlaces
+
+[Enlaces](WEBS.md)
+
+
+#### Donaciones/Donations
 
 - Empower our activity today by making a Donation!
   You're Welcome!
