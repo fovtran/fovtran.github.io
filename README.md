@@ -31,25 +31,17 @@
 
 ### Servicios que ofrecemos
 
-* Soporte profesional Windows 8.1/10/11 y otros.
-* Transcripcion y bases de datos #Bigdata
-* Desarrollo comercial de Apps.
-* Open Source Software and .NET
-* Hardware de PC, arreglos/reparaciones/mods
-* Modelado parametrico CAD
+* Modelado parametrico
+* Excel/Bases de datos #Bigdata
 * Edicion Digital
-* Banners y arte digital
-* Desarrollo de Deeplearning, Machine learning y AI.
-* Embedded design.
+* Hardware de PC, arreglos/reparaciones/mods
 * Mantenimiento Web profesional
+* Banners y arte digital
+* Soporte pro Windows 8.1/10/11 y otros.
+* Desarrollo comercial de Apps. Open Source Software and .NET
+* Embedded (AVR/STM)
 * Audio profesional de estudio (cableados, arreglos)
-* Plataformas para Renderizado de Cine en PC. (Youtube, publicidad, etc)
-
-
-#### Deseos para 2025
-
-- Comprarme anteojos (veo muy poco)
-- Acondicionar fisicamente el espacio de trabajo
+* Masterizado Soundtracks y Cine. (Youtube, publicidad, etc)
 
 
 #### Algunos links
@@ -77,15 +69,24 @@
 
 #### Software preferido
 
-[Compiler Explorer](https://godbolt.org/)
-[Slackware Linux](http://www.slackware.com/)
 [Debian Linux](https://www.debian.org/)
+
 [Ubuntu Linux](https://ubuntu.com/)
 
+[Slackware Linux](http://www.slackware.com/)
+
+[Compiler Explorer](https://godbolt.org/)
+
+
 [Blender](https://www.blender.org)
+
 [Freecad](https://www.freecad.org/)
+
 [Autocad](https://www.autodesk.com/latam/products?cjdata=MXxOfDB8WXww&mktvar002=afc_latam_deeplink&AID=13955714&PID=8299320&SID=jkp_CjwKCAiA-Oi7BhA1EiwA2rIu28oJCUDKi-IUjLA_Mg5EHr-t40AbQwAn4vQBD5nZ0O655JL_1AOZPxoCh2kQAvD_BwE&cjevent=b765d53ccbbd11ef815da7510a82b836&affname=8299320_13955714)
+
 [Coreldraw](https://www.coreldraw.com/en/product/coreldraw/?x-vehicle=ppc_brkws&utm_medium=cpc&utm_source=google&utm_campaign=&utm_term=coreldraw&utm_content=&utm_id=13190095437&extensionid=&matchtype=e&device=c&devicemodel=&creative=659595446099&network=g&placement=&x-source=ppc&x-target=ppc&promo=ppc&gad_source=1)
+
+[Krita](https://krita.org/en/)
 
 [Kicad](https://www.kicad.org/)
 [EasyEDA](https://easyeda.com/)
@@ -93,8 +94,6 @@
 [Ardour](https://ardour.org/)
 [SoundForge](https://www.magix.com/us/music-editing/sound-forge/?srsltid=AfmBOor3Az4QV9pDI_9fSvDDC-n44YtM9PPSL7D2dyQ8st-qtb7-TlaE)
 [Steinberg CUBASE](https://www.steinberg.net/cubase/)
-
-[Krita](https://krita.org/en/)
 
 [Android Studio](https://developer.android.com/studio?)
 [Arduino IDE](https://www.arduino.cc/en/software)
@@ -106,18 +105,26 @@
 [JSBin](http://jsbin.com/uderuw/17/edit?html,output)
 [GeminiAI](https://gemini.google.com/)
 
+
 #### Lenguajes de Programacion
 
 [Golang](https://go.dev/)
+
 [Rust](https://www.rust-lang.org/)
+
 [Zig](https://ziglang.org/)
+
 [Haskell](https://www.haskell.org/)
+
 [Python](https://www.python.org/)
+
 [NumPy](https://numpy.org/)
+
 [OpenGL](https://www.opengl.org/)
+
 [QT Creator](https://doc.qt.io/qt-5/)
 
 
-#### Mas enlaces
+#### Otros enlaces
 
 [Enlaces](WEBS.md)
