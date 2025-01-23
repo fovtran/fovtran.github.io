@@ -1,6 +1,13 @@
 * [Fovta.github.io](https://fovtran.github.io) esta siendo mejorado.
 
 
+#### Donaciones/Donations
+
+[Coffees / Cafecitos](https://cafecito.app/manueduc)
+
+[Paypal](https://www.paypal.com/paypalme/disenonline)
+
+
 ## Acerca de mi
 
 - Soy ingeniero Electronico sin titulo
@@ -14,16 +21,12 @@
 
 ### On the Bench
 
-- Electronics: Coverage of audio systems floor-noise for reaching -40dB, -60dB and -90dB if possible.
-- Electronics: Low noise plugged and lithium power sources.
+- Electronics: Motherboard audio noise-floor
 - Electronics: IR Remote controls and other embedded design in atmel, 8051, and other compatibles
 
-- Coding high performance video and 3d renderers (VAAPI/OpenCL/NVidia)
-- Coding systemctl/kernel parameters administration apps
-- Console tooling. metrics related to kernel and user api.
+- Video, Overlays and 3d renderers (VAAPI/OpenCL/NVidia)
 - Kicad/Freecad plugins.
 - Linus Kernel Realtime Audio. (Optimizations and constant patching)
-- A distro?
 
 
 ### Servicios que ofrecemos
@@ -118,13 +121,3 @@
 #### Mas enlaces
 
 [Enlaces](WEBS.md)
-
-
-#### Donaciones/Donations
-
-- Empower our activity today by making a Donation!
-  You're Welcome!
-
-[Invitame Cafecitos](https://cafecito.app/manueduc)
-
-[Paypal](https://www.paypal.com/paypalme/disenonline)
