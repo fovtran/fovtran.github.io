@@ -3,10 +3,9 @@
 
 #### Donaciones/Donations
 
-[Coffees / Cafecitos](https://cafecito.app/manueduc)
+[![Invitame un café virtual (sigue las instrucciones primero) ](https://cdn.cafecito.app/imgs/buttons/button_1.svg)](https://cafecito.app/manueduc)
 
-[Paypal](https://www.paypal.com/paypalme/disenonline)
-
+[Paypal](https://paypal.me/disenonline?locale.x=es_XC)
 
 ## Acerca de mi
 
@@ -111,6 +110,8 @@
 [Golang](https://go.dev/)
 
 [Rust](https://www.rust-lang.org/)
+
+[Vala](http://valalang.org)
 
 [Zig](https://ziglang.org/)
 
