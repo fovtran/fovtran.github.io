@@ -1,11 +1,11 @@
-* [Fovta.github.io](https://fovtran.github.io) esta siendo mejorado.
+* [Fovtram.github.io](https://fovtran.github.io) esta siendo mejorado.
 
 
 #### Donaciones/Donations
 
-[!Donate now via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=BX8G6VJ8RKNRY)
+[![Donate now via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=BX8G6VJ8RKNRY)
 
-[![Invitame un café virtual (sigue las instrucciones primero) ](https://cdn.cafecito.app/imgs/buttons/button_1.svg)](https://cafecito.app/manueduc)
+[![Invitame un cafecito virtual](https://cdn.cafecito.app/imgs/buttons/button_1.svg)](https://cafecito.app/manueduc)
 
 
 ## Acerca de mi
