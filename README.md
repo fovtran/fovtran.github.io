@@ -3,9 +3,10 @@
 
 #### Donaciones/Donations
 
+[!Donate now via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=BX8G6VJ8RKNRY)
+
 [![Invitame un café virtual (sigue las instrucciones primero) ](https://cdn.cafecito.app/imgs/buttons/button_1.svg)](https://cafecito.app/manueduc)
 
-[Paypal](https://paypal.me/disenonline?locale.x=es_XC)
 
 ## Acerca de mi
 
