@@ -1,7 +1,7 @@
 * [Fovtram.github.io](https://fovtran.github.io) esta siendo mejorado.
 
 
-#### Donaciones/Donations
+#### Objetivos mensuales y Donaciones/Donations
 
 [![Donate now via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=BX8G6VJ8RKNRY)
 
@@ -10,23 +10,20 @@
 
 ## Acerca de mi
 
-- Soy ingeniero Electronico sin titulo
+- Estudie en el FaMaF, no recibido
 - Realizo al hobismo electronico semiprofesional y Modding
-- Poseo varias especializaciones y cursos
-- Vivo en Cordoba capital, Argentina.
-- Experiencia de varias indoles en telecomunicaciones, redes de datos, estudios digitales y mas.
-- Actualmente buscando nuevos clientes y trabajo remoto (Mantenimiento y Webs)
-- Abierto a ofertas Collab en emprendimientos y Multimedia.
+- Poseo varias especializaciones y cursos en redes y programacion.
+- Vivo en Cba Capital, Argentina.
 
 
 ### On the Bench
 
-- Electronics: Motherboard audio noise-floor
+
 - Electronics: IR Remote controls and other embedded design in atmel, 8051, and other compatibles
 
 - Video, Overlays and 3d renderers (VAAPI/OpenCL/NVidia)
 - Kicad/Freecad plugins.
-- Linus Kernel Realtime Audio. (Optimizations and constant patching)
+- Linus Kernel Realtime Audio.
 
 
 ### Servicios que ofrecemos
