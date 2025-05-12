@@ -1,7 +1,7 @@
 * [Fovtram.github.io](https://fovtran.github.io) esta siendo mejorado.
 
 #### Multiuse WEBS
-[WEBS](https://fovtran.github.io/content/WEBS.md)
+[WEBS](content/WEBS.md)
 
 #### Objetivos mensuales y Donaciones/Donations
 
