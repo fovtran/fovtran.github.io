@@ -1,27 +1,26 @@
-* [Fovtram.github.io](https://fovtran.github.io) esta siendo mejorado.
+* [Inicio](https://fovtran.github.io)
+
 
 
 ## Acerca de mi
 
-- Estudie en el FaMaF, no recibido
+- Estudie en el FaMaF.
 - Realizo al hobismo electronico semiprofesional y Modding
 - Poseo varias especializaciones y cursos en redes y programacion.
 - Vivo en Cba Capital, Argentina.
+- [Curriculum vitae](https://)
 
 
-### On the Bench
-
+### Electronica
 
 - Electronics: IR Remote controls and other embedded design in atmel, 8051, and other compatibles
-
 - Video, Overlays and 3d renderers (VAAPI/OpenCL/NVidia)
 - Kicad/Freecad plugins.
-- Linus Kernel Realtime Audio.
+- Linux Kernel Realtime Audio.
 
 
 ### Servicios que ofrecemos
 
-* Modelado parametrico
 * Excel/Bases de datos #Bigdata
 * Edicion Digital
 * Hardware de PC, arreglos/reparaciones/mods
@@ -32,10 +31,10 @@
 * Embedded (AVR/STM)
 * Audio profesional de estudio (cableados, arreglos)
 * Masterizado Soundtracks y Cine. (Youtube, publicidad, etc)
+* Modelado parametrico
 
 
 #### Algunos links
-
 
 [Google Developer](https://developers.google.com/profile/u/fovtran)
 
@@ -47,10 +46,6 @@
 
 [Medium](https://medium.com/@diegocad)
 
-[DisenoLab](https://sites.google.com/view/disenolab)
-
-[Curriculum vitae](https://)
-
 
 #### Links para Twitch
 
@@ -60,7 +55,7 @@
 [Profile](https://www.twitch.tv/komwino)
 
 
-#### Software preferido
+#### Software.
 
 [Debian Linux](https://www.debian.org/)
 
@@ -120,14 +115,11 @@
 [QT Creator](https://doc.qt.io/qt-5/)
 
 
-#### Otros enlaces
-
-
-#### Multiuse WEBS
+#### Mas enlaces
 [Extra Websites](public/extra_websites.md)
 
 
-#### Objetivos mensuales y Donaciones/Donations
+#### Donaciones///
 
 [![Donate now via Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/donate/?hosted_button_id=BX8G6VJ8RKNRY)
 
