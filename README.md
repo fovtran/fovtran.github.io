@@ -6,9 +6,9 @@
 
 - Estudie en el FaMaF.
 - Realizo al hobismo electronico semiprofesional y Modding
-- Poseo varias especializaciones y cursos en redes y programacion.
-- Vivo en Cba Capital, Argentina.
-- [Curriculum vitae](https://)
+- Vivo en Cordoba, Argentina.
+- [Curriculum vitae](public/curriculum.md)
+- [Arte con AI](https://creator.nightcafe.studio/u/Deigo)
 
 
 ### Electronica

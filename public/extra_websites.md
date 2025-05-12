@@ -1,4 +1,5 @@
-## Some Links
+* [Inicio](https://fovtran.github.io)
+
 
 
 ### General Apps
@@ -8,10 +9,6 @@
 [https://www.circuito.io/app?components=514,11022,748665](https://www.circuito.io/app?components=514,11022,748665)
 
 [https://www.digikey.com/en/maker/projects/introduction-to-pid-controllers/763a6dca352b4f2ba00adde46445ddeb](https://www.digikey.com/en/maker/projects/introduction-to-pid-controllers/763a6dca352b4f2ba00adde46445ddeb)
-
-[https://sites.google.com/view/disenolab](https://sites.google.com/view/disenolab)
-
-[https://www.google.com/maps/@-31.3787291,-64.2133143,748m/data=!3m1!1e3?entry=ttu](https://www.google.com/maps/@-31.3787291,-64.2133143,748m/data=!3m1!1e3?entry=ttu)
 
 
 
