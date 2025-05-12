@@ -1,5 +1,7 @@
 * [Fovtram.github.io](https://fovtran.github.io) esta siendo mejorado.
 
+#### Multiuse WEBS
+[WEBS](https://fovtran.github.io/content/WEBS.md)
 
 #### Donaciones/Donations
 
@@ -45,6 +47,9 @@
 
 
 #### Algunos links
+
+
+[Google Developer](https://developers.google.com/profile/u/fovtran)
 
 [Portal de prueba y Blog](https://manuapp.vercel.app/)
 
