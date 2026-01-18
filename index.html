@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <title>Mobile Catalog</title>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    * { -webkit-tap-highlight-color: transparent; }
+    body { overscroll-behavior: none; }
+  </style>
+</head>
+<body class="bg-slate-50">
+  <div id="root"></div>
+  <script>
+    const { useState, useEffect } = React;
+
+    function App() {
+      const [activeTab, setActiveTab] = useState('catalog');
+      const [content, setContent] = useState([]);
+      const [filteredContent, setFilteredContent] = useState([]);
+      const [loading, setLoading] = useState(true);
+      const [searchQuery, setSearchQuery] = useState('');
+      const [expandedItem, setExpandedItem] = useState(null);
+      const [formData, setFormData] = useState({
+        name: '',
+        email: '',
+        phone: '',
+        message: ''
+      });
+
+      useEffect(() => {
+        axios.get('/content.json')
+          .then(res => {
+            setContent(res.data.items || []);
+            setFilteredContent(res.data.items || []);
+            setLoading(false);
+          })
+          .catch(err => { console.error('Failed to load content:', err); setLoading(false); });
+      }, []);
+
+      useEffect(() => {
+        if (searchQuery.trim() === '') { setFilteredContent(content); } else {
+          const query = searchQuery.toLowerCase();
+          const filtered = content.filter(item =>
+            item.title.toLowerCase().includes(query) ||
+            (item.description && item.description.toLowerCase().includes(query))
+          );
+          setFilteredContent(filtered);
+        }
+      }, [searchQuery, content]);
+
+      const handleInputChange = (e) => {
+        setFormData({
+          ...formData,
+          [e.target.name]: e.target.value
+        });
+      };
+
+      const handleSubmit = (e) => {
+        e.preventDefault();
+        console.log('Form submitted:', formData); alert('Thank you! We will contact you soon.');
+        setFormData({ name: '', email: '', phone: '', message: '' });
+      };
+
+      const handleCardClick = (item, idx) => { setExpandedItem(expandedItem === idx ? null : idx); };
+
+      return React.createElement('div', { className: 'min-h-screen flex flex-col' },
+        // Header
+        React.createElement('header', { className: 'bg-slate-900 text-white px-4 py-3 shadow-md' },
+          React.createElement('h1', { className: 'text-lg font-light tracking-wide' }, 'Mobile Catalog')
+        ),
+
+        // Button Bar
+        React.createElement('nav', { className: 'bg-white border-b border-slate-200 sticky top-0 z-10' },
+          React.createElement('div', { className: 'flex' },
+            React.createElement('button', {
+              onClick: () => setActiveTab('catalog'),
+              className: 'flex-1 py-3 text-sm font-medium transition-colors ' + 
+                (activeTab === 'catalog' 
+                  ? 'text-blue-600 border-b-2 border-blue-600' : 'text-slate-600 hover:text-slate-900')}, 'Catalog'),
+            React.createElement('button', {
+              onClick: () => setActiveTab('contact'),
+              className: 'flex-1 py-3 text-sm font-medium transition-colors ' + 
+                (activeTab === 'contact' 
+                  ? 'text-blue-600 border-b-2 border-blue-600' : 'text-slate-600 hover:text-slate-900')}, 'Contact')
+          )
+        ),
+
+        // Main Content
+        React.createElement('main', { className: 'flex-1 overflow-y-auto' },
+          activeTab === 'catalog' ? 
+            // Catalog Tab
+            React.createElement('div', { className: 'p-4' },
+              // Search Bar
+              React.createElement('div', { className: 'mb-4' },
+                React.createElement('input', {
+                  type: 'text',
+                  placeholder: 'Search items...',
+                  value: searchQuery,
+                  onChange: (e) => setSearchQuery(e.target.value),
+                  className: 'w-full px-4 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm'
+                })
+              ),
+
+              loading ? 
+                React.createElement('div', { className: 'text-center py-12 text-slate-500' }, 'Loading...') :
+                filteredContent.length === 0 ?
+                  React.createElement('div', { className: 'text-center py-12 text-slate-500' }, 'No items found') :
+                  React.createElement('div', { className: 'grid grid-cols-2 lg:grid-cols-4 gap-3' },
+                    filteredContent.map((item, idx) =>
+                      React.createElement('div', { 
+                        key: idx,
+                        onClick: () => handleCardClick(item, idx),
+                        className: 'bg-white rounded-lg shadow-sm border border-slate-200 overflow-hidden cursor-pointer hover:shadow-md transition-shadow aspect-[5/3] flex flex-col'
+                      },
+                        item.image && React.createElement('div', { 
+                          className: 'h-2/3 overflow-hidden'
+                        },
+                          React.createElement('img', {
+                            src: item.image, alt: item.title, className: 'w-full h-full object-cover'
+                          })
+                        ),
+                        React.createElement('div', { className: 'h-1/3 p-2 flex flex-col justify-between' },
+                          React.createElement('h3', { className: 'text-xs font-medium text-slate-900 line-clamp-1' }, item.title),
+                          React.createElement('div', { className: 'flex items-center justify-between' },
+                            item.price && React.createElement('p', { 
+                              className: 'text-sm font-semibold text-blue-600' }, item.price),
+                            React.createElement('button', {
+                              className: 'text-xs text-blue-600 hover:text-blue-800'}, expandedItem === idx ? '▲' : '▼')
+                          )
+                        )
+                      )
+                    )
+                  ),
+
+              // Expanded Item Modal
+              expandedItem !== null && React.createElement('div', {
+                className: 'fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-4 z-50',
+                onClick: () => setExpandedItem(null)
+              },
+                React.createElement('div', {
+                  className: 'bg-white rounded-lg max-w-2xl w-full max-h-[90vh] overflow-y-auto',
+                  onClick: (e) => e.stopPropagation()
+                },
+                  filteredContent[expandedItem].image && React.createElement('img', {
+                    src: filteredContent[expandedItem].image,
+                    alt: filteredContent[expandedItem].title,
+                    className: 'w-full h-64 object-cover'
+                  }),
+                  React.createElement('div', { className: 'p-6' },
+                    React.createElement('h2', { className: 'text-2xl font-semibold text-slate-900 mb-2' }, 
+                      filteredContent[expandedItem].title
+                    ),
+                    filteredContent[expandedItem].price && React.createElement('p', { 
+                      className: 'text-3xl font-bold text-blue-600 mb-4' 
+                    }, filteredContent[expandedItem].price),
+                    filteredContent[expandedItem].description && React.createElement('p', { 
+                      className: 'text-slate-600 mb-6' 
+                    }, filteredContent[expandedItem].description),
+                    React.createElement('button', {
+                      onClick: () => setExpandedItem(null),
+                      className: 'w-full bg-slate-900 text-white py-3 rounded-md font-medium hover:bg-slate-800 transition-colors'
+                    }, 'Close')
+                  )
+                )
+              )
+            ) :
+            // Contact Tab
+            React.createElement('div', { className: 'p-4' },
+              React.createElement('div', { className: 'bg-white rounded-lg shadow-sm border border-slate-200 p-6 max-w-2xl mx-auto' },
+                React.createElement('h2', { className: 'text-lg font-medium text-slate-900 mb-4' }, 'Contact Us'),
+                React.createElement('form', { onSubmit: handleSubmit, className: 'space-y-4' },
+                  React.createElement('div', null,
+                    React.createElement('label', { 
+                      className: 'block text-sm font-medium text-slate-700 mb-1' 
+                    }, 'Name'),
+                    React.createElement('input', {
+                      type: 'text',
+                      name: 'name',
+                      value: formData.name,
+                      onChange: handleInputChange,
+                      required: true,
+                      className: 'w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                    })
+                  ),
+                  React.createElement('div', null,
+                    React.createElement('label', { 
+                      className: 'block text-sm font-medium text-slate-700 mb-1' }, 'Email'),
+                    React.createElement('input', {
+                      type: 'email', name: 'email', value: formData.email,
+                      onChange: handleInputChange,
+                      required: true,
+                      className: 'w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                    })
+                  ),
+                  React.createElement('div', null,
+                    React.createElement('label', { 
+                      className: 'block text-sm font-medium text-slate-700 mb-1' }, 'Phone'),
+                    React.createElement('input', {
+                      type: 'tel', name: 'phone', value: formData.phone, 
+                      onChange: handleInputChange,
+                      className: 'w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent'
+                    })
+                  ),
+                  React.createElement('div', null,
+                    React.createElement('label', { 
+                      className: 'block text-sm font-medium text-slate-700 mb-1' }, 'Message'),
+                    React.createElement('textarea', {
+                      name: 'message', value: formData.message,
+                      onChange: handleInputChange,
+                      rows: 4,
+                      className: 'w-full px-3 py-2 border border-slate-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent resize-none'
+                    })
+                  ),
+                  React.createElement('button', {
+                    type: 'submit',
+                    className: 'w-full bg-blue-600 text-white py-3 rounded-md font-medium hover:bg-blue-700 active:bg-blue-800 transition-colors'
+                  }, 'Send Message')
+                )
+              )
+            )
+        )
+      );
+    }
+
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(React.createElement(App));
+  </script>
+</body>
+</html>
